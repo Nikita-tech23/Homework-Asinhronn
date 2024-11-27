@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-Top</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+         <h1 class="h1_h">Premium quality clothing store</h1>
+    </header>
+
+    
+
+    <section id="add-product-section">
+        <h2>Добавить товар</h2>
+        <form id="add-product-form">
+            <input type="text" id="title" placeholder="Наименование товара" required>
+            <input type="number" id="price" placeholder="Цена" required>
+            <textarea id="description" placeholder="Описание товара" required></textarea>
+            <input type="text" id="category" placeholder="Категория" required>
+            <button type="submit">Добавить товар</button>
+        </form>
+    </section>
+
+    <section id="product-list-section">
+        <h2>Список товаров</h2>
+        <div id="product-list"></div>
+        <button id="load-more">Добавить ещё</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
